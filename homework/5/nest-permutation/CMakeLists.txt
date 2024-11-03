@@ -1,0 +1,1 @@
+add_executable(next-permutation next-permutation.c)

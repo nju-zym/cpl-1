@@ -1,0 +1,1 @@
+add_executable(p1080 p1080.c)

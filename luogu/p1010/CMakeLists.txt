@@ -1,0 +1,1 @@
+add_executable(p1010 p1010.c)

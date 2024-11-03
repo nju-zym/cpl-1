@@ -1,0 +1,1 @@
+add_executable(p1094 p1094.c)

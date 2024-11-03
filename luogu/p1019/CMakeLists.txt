@@ -1,0 +1,1 @@
+add_executable(p1019 p1019.c)

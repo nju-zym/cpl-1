@@ -1,0 +1,1 @@
+add_executable(p1208 p1208.c)

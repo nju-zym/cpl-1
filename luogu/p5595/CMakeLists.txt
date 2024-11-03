@@ -1,0 +1,1 @@
+add_executable(p5595 p5595.c)

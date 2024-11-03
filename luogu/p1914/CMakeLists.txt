@@ -1,0 +1,1 @@
+add_executable(p1914 p1914.c)

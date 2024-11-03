@@ -1,0 +1,6 @@
+add_subdirectory(sum)
+add_subdirectory(nest-permutation)
+add_subdirectory(absolute-prime)
+add_subdirectory(converter-2)
+add_subdirectory(radix)
+add_subdirectory(pair)

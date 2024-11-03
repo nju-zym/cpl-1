@@ -1,0 +1,1 @@
+add_executable(p2280 p2280.c)

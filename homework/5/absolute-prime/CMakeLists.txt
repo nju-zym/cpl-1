@@ -1,0 +1,1 @@
+add_executable(absolute-prime absolute-prime.c)

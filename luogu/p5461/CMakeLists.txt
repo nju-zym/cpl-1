@@ -1,0 +1,1 @@
+add_executable(p5461 p5461.c)
