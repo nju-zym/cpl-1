@@ -85,3 +85,6 @@ D:/cpl-1/cmake-build-debug/luogu/p1908/CMakeFiles/edit_cache.dir
 D:/cpl-1/cmake-build-debug/luogu/p1908/CMakeFiles/rebuild_cache.dir
 D:/cpl-1/cmake-build-debug/personal/CMakeFiles/edit_cache.dir
 D:/cpl-1/cmake-build-debug/personal/CMakeFiles/rebuild_cache.dir
+D:/cpl-1/cmake-build-debug/personal/quine/CMakeFiles/quine.dir
+D:/cpl-1/cmake-build-debug/personal/quine/CMakeFiles/edit_cache.dir
+D:/cpl-1/cmake-build-debug/personal/quine/CMakeFiles/rebuild_cache.dir
