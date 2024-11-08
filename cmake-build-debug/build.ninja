@@ -1729,6 +1729,67 @@ build personal/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build personal/rebuild_cache: phony personal/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/personal/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quine
+
+
+#############################################
+# Order-only phony target for quine
+
+build cmake_object_order_depends_target_quine: phony || .
+
+build personal/quine/CMakeFiles/quine.dir/quine.c.obj: C_COMPILER__quine_unscanned_Debug D$:/cpl-1/personal/quine/quine.c || cmake_object_order_depends_target_quine
+  DEP_FILE = personal\quine\CMakeFiles\quine.dir\quine.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = personal\quine\CMakeFiles\quine.dir
+  OBJECT_FILE_DIR = personal\quine\CMakeFiles\quine.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quine
+
+
+#############################################
+# Link the executable personal\quine\quine.exe
+
+build personal/quine/quine.exe: C_EXECUTABLE_LINKER__quine_Debug personal/quine/CMakeFiles/quine.dir/quine.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = personal\quine\CMakeFiles\quine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = personal\quine\quine.exe
+  TARGET_IMPLIB = personal\quine\libquine.dll.a
+  TARGET_PDB = quine.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build personal/quine/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug\personal\quine && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build personal/quine/edit_cache: phony personal/quine/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build personal/quine/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug\personal\quine && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build personal/quine/rebuild_cache: phony personal/quine/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build absolute-prime: phony homework/5/absolute-prime/absolute-prime.exe
@@ -1814,6 +1875,10 @@ build p5707.exe: phony luogu/p5707/p5707.exe
 build pair: phony homework/5/pair/pair.exe
 
 build pair.exe: phony homework/5/pair/pair.exe
+
+build quine: phony personal/quine/quine.exe
+
+build quine.exe: phony personal/quine/quine.exe
 
 build radix: phony homework/5/radix/radix.exe
 
@@ -2049,7 +2114,14 @@ build luogu/p5707/all: phony luogu/p5707/p5707.exe
 #############################################
 # Folder: D:/cpl-1/cmake-build-debug/personal
 
-build personal/all: phony
+build personal/all: phony personal/quine/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug/personal/quine
+
+build personal/quine/all: phony personal/quine/quine.exe
 
 # =============================================================================
 # Built-in targets
@@ -2058,14 +2130,14 @@ build personal/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

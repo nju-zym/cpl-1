@@ -35,8 +35,8 @@
 210	365	7521682073972189	homework/5/sum/sum.exe	4142334a43c6bcbd
 5	216	7520910641410824	luogu/p2280/CMakeFiles/p2280.dir/p280.c.obj	cbae33537d6264de
 7	254	7521308175819755	luogu/p2280/CMakeFiles/p2280.dir/p2280.c.obj	befc4683923f661c
-6	218	7521675192932465	luogu/p1083/CMakeFiles/p1083.dir/p1083.c.obj	6a97acedbe2fa62e
-219	405	7521675195053223	luogu/p1083/p1083.exe	d4154131a501a275
+8	268	7525110320315235	luogu/p1083/CMakeFiles/p1083.dir/p1083.c.obj	6a97acedbe2fa62e
+270	456	7525110322935314	luogu/p1083/p1083.exe	d4154131a501a275
 6	213	7521700419710529	homework/5/nest-permutation/CMakeFiles/next-permutation.dir/next-permutation.c.obj	3da69541b6f356b5
 5	224	7521712355163876	homework/5/absolute-prime/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj	eee4f8f592313696
 225	376	7521781927395295	homework/5/converter-2/converter-2.exe	ebe81591fd43df7b
@@ -44,3 +44,7 @@
 245	380	7522186379162528	homework/5/radix/radix.exe	8e2f238982785f20
 6	201	7522264973992849	homework/5/pair/CMakeFiles/pair.dir/pair.c.obj	762f727c5e43f1c9
 202	361	7522264975948960	homework/5/pair/pair.exe	645c9b2927b1d799
+4	1442	7527491889137808	personal/quine/CMakeFiles/quine.dir/quine.c.obj	2ca27cf40e2028b9
+1443	2216	7527491903522077	personal/quine/quine.exe	ef4a93573345cf02
+8	172	7527505208257673	personal/quine/CMakeFiles/quine.dir/quine.c.obj	2ca27cf40e2028b9
+173	316	7527505209909137	personal/quine/quine.exe	ef4a93573345cf02
