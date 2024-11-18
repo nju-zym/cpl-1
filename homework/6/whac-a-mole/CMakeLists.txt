@@ -1,0 +1,1 @@
+add_executable(whac-a-mole whac-a-mole.c)

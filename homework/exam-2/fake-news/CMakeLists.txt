@@ -1,0 +1,1 @@
+add_executable(fake-news fake-news.c)

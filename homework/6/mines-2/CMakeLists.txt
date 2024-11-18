@@ -1,0 +1,1 @@
+add_executable(mines-2 mines-2.c)
