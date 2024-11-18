@@ -47,3 +47,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/cpl-1/cmake-build-debug/homework/5/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/cpl-1/cmake-build-debug/homework/6/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/cpl-1/cmake-build-debug/homework/exam-2/cmake_install.cmake")
+endif()
+

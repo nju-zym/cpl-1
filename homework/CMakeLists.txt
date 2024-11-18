@@ -1,2 +1,4 @@
 add_subdirectory(exam-1)
 add_subdirectory(5)
+add_subdirectory(6)
+add_subdirectory(exam-2)
