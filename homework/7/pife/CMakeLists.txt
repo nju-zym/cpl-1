@@ -1,0 +1,1 @@
+add_executable(pife pife.c)

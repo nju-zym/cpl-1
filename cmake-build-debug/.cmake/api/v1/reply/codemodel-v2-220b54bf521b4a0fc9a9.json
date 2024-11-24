@@ -9,8 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						27,
-						44
+						32,
+						49
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -21,7 +21,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						34
+						38
 					]
 				},
 				{
@@ -31,7 +31,8 @@
 						2,
 						6,
 						13,
-						23
+						23,
+						27
 					],
 					"jsonFile" : "directory-homework-Debug-851d0af921879e68b6a6.json",
 					"minimumCMakeVersion" : 
@@ -71,7 +72,7 @@
 					"source" : "homework/exam-1/reverse",
 					"targetIndexes" : 
 					[
-						30
+						33
 					]
 				},
 				{
@@ -86,7 +87,7 @@
 					"source" : "homework/exam-1/tictactoe",
 					"targetIndexes" : 
 					[
-						35
+						39
 					]
 				},
 				{
@@ -101,7 +102,7 @@
 					"source" : "homework/exam-1/bye-jonabell",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -136,7 +137,7 @@
 					"source" : "homework/5/sum",
 					"targetIndexes" : 
 					[
-						33
+						37
 					]
 				},
 				{
@@ -151,7 +152,7 @@
 					"source" : "homework/5/nest-permutation",
 					"targetIndexes" : 
 					[
-						9
+						11
 					]
 				},
 				{
@@ -181,7 +182,7 @@
 					"source" : "homework/5/converter-2",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -196,7 +197,7 @@
 					"source" : "homework/5/radix",
 					"targetIndexes" : 
 					[
-						29
+						32
 					]
 				},
 				{
@@ -211,7 +212,7 @@
 					"source" : "homework/5/pair",
 					"targetIndexes" : 
 					[
-						26
+						28
 					]
 				},
 				{
@@ -249,7 +250,7 @@
 					"source" : "homework/6/stack",
 					"targetIndexes" : 
 					[
-						32
+						35
 					]
 				},
 				{
@@ -264,7 +265,7 @@
 					"source" : "homework/6/queue",
 					"targetIndexes" : 
 					[
-						27
+						30
 					]
 				},
 				{
@@ -279,7 +280,7 @@
 					"source" : "homework/6/rotate",
 					"targetIndexes" : 
 					[
-						31
+						34
 					]
 				},
 				{
@@ -294,7 +295,7 @@
 					"source" : "homework/6/wine",
 					"targetIndexes" : 
 					[
-						38
+						42
 					]
 				},
 				{
@@ -309,7 +310,7 @@
 					"source" : "homework/6/brackets",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -324,7 +325,7 @@
 					"source" : "homework/6/counting",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -339,7 +340,7 @@
 					"source" : "homework/6/buddy",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -354,7 +355,7 @@
 					"source" : "homework/6/mines-2",
 					"targetIndexes" : 
 					[
-						8
+						10
 					]
 				},
 				{
@@ -369,7 +370,7 @@
 					"source" : "homework/6/whac-a-mole",
 					"targetIndexes" : 
 					[
-						37
+						41
 					]
 				},
 				{
@@ -401,7 +402,7 @@
 					"source" : "homework/exam-2/fake-news",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -416,7 +417,7 @@
 					"source" : "homework/exam-2/coded-lock",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -431,18 +432,91 @@
 					"source" : "homework/exam-2/wanderbell",
 					"targetIndexes" : 
 					[
+						40
+					]
+				},
+				{
+					"build" : "homework/7",
+					"childIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31
+					],
+					"jsonFile" : "directory-homework.7-Debug-2f12cad106527d1e9ab5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "homework/7"
+				},
+				{
+					"build" : "homework/7/interpreter",
+					"jsonFile" : "directory-homework.7.interpreter-Debug-6abf1f821a63d29e9330.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "homework/7/interpreter",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "homework/7/bigtitle",
+					"jsonFile" : "directory-homework.7.bigtitle-Debug-1d8d2fc038a079ceb092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "homework/7/bigtitle",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "homework/7/substr",
+					"jsonFile" : "directory-homework.7.substr-Debug-7a20223913085965f5bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "homework/7/substr",
+					"targetIndexes" : 
+					[
 						36
+					]
+				},
+				{
+					"build" : "homework/7/pife",
+					"jsonFile" : "directory-homework.7.pife-Debug-f437427ad6ae967809ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "homework/7/pife",
+					"targetIndexes" : 
+					[
+						29
 					]
 				},
 				{
 					"build" : "luogu",
 					"childIndexes" : 
 					[
-						28,
-						29,
-						30,
-						31,
-						32,
 						33,
 						34,
 						35,
@@ -453,7 +527,12 @@
 						40,
 						41,
 						42,
-						43
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
 					],
 					"jsonFile" : "directory-luogu-Debug-778c9670328e4815bec5.json",
 					"minimumCMakeVersion" : 
@@ -471,12 +550,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1914",
 					"targetIndexes" : 
 					[
-						20
+						22
 					]
 				},
 				{
@@ -486,12 +565,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p5461",
 					"targetIndexes" : 
 					[
-						23
+						25
 					]
 				},
 				{
@@ -501,12 +580,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1309",
 					"targetIndexes" : 
 					[
-						16
+						18
 					]
 				},
 				{
@@ -516,12 +595,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p5707",
 					"targetIndexes" : 
 					[
-						25
+						27
 					]
 				},
 				{
@@ -531,12 +610,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1010",
 					"targetIndexes" : 
 					[
-						10
+						12
 					]
 				},
 				{
@@ -546,12 +625,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1429",
 					"targetIndexes" : 
 					[
-						17
+						19
 					]
 				},
 				{
@@ -561,12 +640,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p5595",
 					"targetIndexes" : 
 					[
-						24
+						26
 					]
 				},
 				{
@@ -576,12 +655,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1208",
 					"targetIndexes" : 
 					[
-						15
+						17
 					]
 				},
 				{
@@ -591,12 +670,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1601",
 					"targetIndexes" : 
 					[
-						18
+						20
 					]
 				},
 				{
@@ -606,12 +685,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1094",
 					"targetIndexes" : 
 					[
-						14
+						16
 					]
 				},
 				{
@@ -621,12 +700,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p3397",
 					"targetIndexes" : 
 					[
-						22
+						24
 					]
 				},
 				{
@@ -636,12 +715,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p2280",
 					"targetIndexes" : 
 					[
-						21
+						23
 					]
 				},
 				{
@@ -651,12 +730,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1080",
 					"targetIndexes" : 
 					[
-						12
+						14
 					]
 				},
 				{
@@ -666,12 +745,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1083",
 					"targetIndexes" : 
 					[
-						13
+						15
 					]
 				},
 				{
@@ -681,12 +760,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1019",
 					"targetIndexes" : 
 					[
-						11
+						13
 					]
 				},
 				{
@@ -696,19 +775,19 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 27,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "luogu/p1908",
 					"targetIndexes" : 
 					[
-						19
+						21
 					]
 				},
 				{
 					"build" : "personal",
 					"childIndexes" : 
 					[
-						45
+						50
 					],
 					"jsonFile" : "directory-personal-Debug-bda70a9690ba28f698e2.json",
 					"minimumCMakeVersion" : 
@@ -726,12 +805,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 44,
+					"parentIndex" : 49,
 					"projectIndex" : 0,
 					"source" : "personal/quine",
 					"targetIndexes" : 
 					[
-						28
+						31
 					]
 				}
 			],
@@ -786,7 +865,12 @@
 						42,
 						43,
 						44,
-						45
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
 					],
 					"name" : "cpl_1",
 					"targetIndexes" : 
@@ -829,7 +913,11 @@
 						35,
 						36,
 						37,
-						38
+						38,
+						39,
+						40,
+						41,
+						42
 					]
 				}
 			],
@@ -840,6 +928,13 @@
 					"id" : "absolute-prime::@a3fca630c2428f74aa95",
 					"jsonFile" : "target-absolute-prime-Debug-2ecb70b789649e21831a.json",
 					"name" : "absolute-prime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "bigtitle::@56a0b95dab3cacf6cd38",
+					"jsonFile" : "target-bigtitle-Debug-ad7db4d96c7b37bce2f5.json",
+					"name" : "bigtitle",
 					"projectIndex" : 0
 				},
 				{
@@ -892,6 +987,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 28,
+					"id" : "interpreter::@66abfa2c600cd89bf824",
+					"jsonFile" : "target-interpreter-Debug-6e758c6deaa665f0d6dc.json",
+					"name" : "interpreter",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 21,
 					"id" : "mines-2::@da384eedc02dd59c78b7",
 					"jsonFile" : "target-mines-2-Debug-7eba779d503209bda6e6.json",
@@ -906,112 +1008,112 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 32,
+					"directoryIndex" : 37,
 					"id" : "p1010::@04da294f065436752844",
 					"jsonFile" : "target-p1010-Debug-782e425aa301ccb312b8.json",
 					"name" : "p1010",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 42,
+					"directoryIndex" : 47,
 					"id" : "p1019::@002ae48c51cac46e5e31",
 					"jsonFile" : "target-p1019-Debug-8393108f2573256655af.json",
 					"name" : "p1019",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 40,
+					"directoryIndex" : 45,
 					"id" : "p1080::@3bf78c2759a59797cbbc",
 					"jsonFile" : "target-p1080-Debug-5012e7b4a4c58ef19916.json",
 					"name" : "p1080",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 41,
+					"directoryIndex" : 46,
 					"id" : "p1083::@47722e5e25555ead7b80",
 					"jsonFile" : "target-p1083-Debug-dca5437f73d2621a0787.json",
 					"name" : "p1083",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 37,
+					"directoryIndex" : 42,
 					"id" : "p1094::@6570ec3972605c75f945",
 					"jsonFile" : "target-p1094-Debug-0542d495ae89f7df8772.json",
 					"name" : "p1094",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 35,
+					"directoryIndex" : 40,
 					"id" : "p1208::@5370598b9b34e37ea5b2",
 					"jsonFile" : "target-p1208-Debug-b73a58cee74ef3f72461.json",
 					"name" : "p1208",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 30,
+					"directoryIndex" : 35,
 					"id" : "p1309::@3c2c419cd910029f71da",
 					"jsonFile" : "target-p1309-Debug-85dd6ac56e9b4d801d41.json",
 					"name" : "p1309",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 33,
+					"directoryIndex" : 38,
 					"id" : "p1429::@0f94dd2c714f07ea074d",
 					"jsonFile" : "target-p1429-Debug-12a9db14b7cbd99ce1f5.json",
 					"name" : "p1429",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 36,
+					"directoryIndex" : 41,
 					"id" : "p1601::@c7f6096290620e29ec2e",
 					"jsonFile" : "target-p1601-Debug-f29a75e6cd17b00d54b0.json",
 					"name" : "p1601",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 43,
+					"directoryIndex" : 48,
 					"id" : "p1908::@dd809c940521a4e517c0",
 					"jsonFile" : "target-p1908-Debug-9bb05f3b3d38b5c0df5f.json",
 					"name" : "p1908",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 28,
+					"directoryIndex" : 33,
 					"id" : "p1914::@7a1bcb5f1205efe8e5f7",
 					"jsonFile" : "target-p1914-Debug-20d1ee700e5e5220cfe2.json",
 					"name" : "p1914",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 39,
+					"directoryIndex" : 44,
 					"id" : "p2280::@d176847f4534cb122661",
 					"jsonFile" : "target-p2280-Debug-e682fc345a53cd5f36b1.json",
 					"name" : "p2280",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 38,
+					"directoryIndex" : 43,
 					"id" : "p3397::@01ce2b37cffc6af442f0",
 					"jsonFile" : "target-p3397-Debug-29c7123e5f5549973ec5.json",
 					"name" : "p3397",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 29,
+					"directoryIndex" : 34,
 					"id" : "p5461::@eb1de4351d1da9947382",
 					"jsonFile" : "target-p5461-Debug-8d42255b028a1e4c87b4.json",
 					"name" : "p5461",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 34,
+					"directoryIndex" : 39,
 					"id" : "p5595::@f6601bb2897ced84f937",
 					"jsonFile" : "target-p5595-Debug-01243a526e8ecc1f43cf.json",
 					"name" : "p5595",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 31,
+					"directoryIndex" : 36,
 					"id" : "p5707::@7a8877bb9485138c323b",
 					"jsonFile" : "target-p5707-Debug-f3bf737664a05aa32f46.json",
 					"name" : "p5707",
@@ -1025,6 +1127,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 31,
+					"id" : "pife::@109d6b4777f8d698dfda",
+					"jsonFile" : "target-pife-Debug-c3f628f24c46c051e32c.json",
+					"name" : "pife",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 15,
 					"id" : "queue::@9afbd33f28ccb21482f4",
 					"jsonFile" : "target-queue-Debug-76054ad86e2872077627.json",
@@ -1032,7 +1141,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 45,
+					"directoryIndex" : 50,
 					"id" : "quine::@19585dff6bf6b110ab7f",
 					"jsonFile" : "target-quine-Debug-b085e4d68db4276402d5.json",
 					"name" : "quine",
@@ -1064,6 +1173,13 @@
 					"id" : "stack::@29f29b426e81c3482481",
 					"jsonFile" : "target-stack-Debug-c99b2e70f8191c369389.json",
 					"name" : "stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "substr::@e52d7bc475d6664abb10",
+					"jsonFile" : "target-substr-Debug-5637b8969ef2ea2d57ce.json",
+					"name" : "substr",
 					"projectIndex" : 0
 				},
 				{

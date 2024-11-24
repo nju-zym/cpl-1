@@ -185,6 +185,21 @@
 			"path" : "homework/exam-2/wanderbell/CMakeLists.txt"
 		},
 		{
+			"path" : "homework/7/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/7/interpreter/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/7/bigtitle/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/7/substr/CMakeLists.txt"
+		},
+		{
+			"path" : "homework/7/pife/CMakeLists.txt"
+		},
+		{
 			"path" : "luogu/CMakeLists.txt"
 		},
 		{
