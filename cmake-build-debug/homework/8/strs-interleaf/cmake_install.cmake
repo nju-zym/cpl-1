@@ -1,4 +1,4 @@
-# Install script for directory: D:/cpl-1/homework/8
+# Install script for directory: D:/cpl-1/homework/8/strs-interleaf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,15 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/software/toolbox/CLion/bin/mingw/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/8/strs_cat/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/8/strs-interleaf/cmake_install.cmake")
 endif()
 
