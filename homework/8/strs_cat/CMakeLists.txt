@@ -1,0 +1,1 @@
+add_executable(strs_cat strs_cat.c)
