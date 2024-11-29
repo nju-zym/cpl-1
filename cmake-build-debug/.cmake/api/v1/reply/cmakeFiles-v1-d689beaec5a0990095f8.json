@@ -209,6 +209,9 @@
 			"path" : "homework/8/strs-interleaf/CMakeLists.txt"
 		},
 		{
+			"path" : "homework/8/parse/CMakeLists.txt"
+		},
+		{
 			"path" : "luogu/CMakeLists.txt"
 		},
 		{
