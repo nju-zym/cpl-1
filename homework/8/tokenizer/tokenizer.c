@@ -1,5 +1,5 @@
 //
-// Created by 35861 on 24-11-17.
+// Created by 35861 on 24-11-29.
 //
 #include <stdio.h>
 #include <stdbool.h>
@@ -27,14 +27,17 @@ int main() {
     while (scanf("%s", s) != EOF) {
         for (char *pos = strchr(s, ';');pos; s = pos + 1, pos = strchr(s, ';')) {
             *pos = '\0';
-            process(s);
+            if(s[0]!='\0')process(s);
+            output[output_index++] = "\n";
             if (flag!=true) {
+                printf("Compile Error\n");
                 return 0;
             }
+        }
+        if(s[0]!='\0') {
+            process(s);
             output[output_index++] = " ";
-             }
-             process(s);
-        output[output_index++] = "\n";
+        }
     }
     if (s[0]!='\0') {
         printf("Compile Error\n");
@@ -65,10 +68,36 @@ bool is_float(const char* str) {
     if (pos==NULL) return false;
     *pos = '\0';
     char* dec = pos + 1;
-    if (dec[0]=='\0') return false;
-    if (is_integer(str)!=true) return false;
-    if(is_integer(dec)!=true) return false;
-    return true;
+    if (str[0]=='\0'&&dec[0]!='\0') {
+        if (is_integer(dec)) {
+            *pos = '.';
+            return true;
+        } else {
+            *pos = '.';
+            return false;
+        }
+    }
+    else if(dec[0]=='\0'&&str[0]!='\0') {
+        if (is_integer(str)) {
+            *pos = '.';
+            return true;
+        } else {
+            *pos = '.';
+            return false;
+        }
+    }
+    else if(dec[0]!='\0'&&str[0]!='\0') {
+        if (is_integer(str)==true&&is_integer(dec)==true) {
+            *pos = '.';
+            return true;
+        }
+        else {
+            *pos = '.';
+            return false;
+        }
+    }
+    *pos = '.';
+    return false;
 }
 bool is_operator(const char* str) {
     for (int i = 0; i < operators_sum; i++) {
@@ -107,6 +136,5 @@ void process(char* s) {
         output[output_index++] = "variable";
         return;
     }
-    printf("Compile Error");
     flag = false;
 }
