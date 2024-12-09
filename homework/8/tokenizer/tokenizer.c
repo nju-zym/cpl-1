@@ -2,7 +2,6 @@
 // Created by 35861 on 24-11-29.
 //
 #include <stdio.h>
-#include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
 const char* reserved[] = {
@@ -72,29 +71,25 @@ bool is_float(const char* str) {
         if (is_integer(dec)) {
             *pos = '.';
             return true;
-        } else {
-            *pos = '.';
-            return false;
         }
+        *pos = '.';
+        return false;
     }
-    else if(dec[0]=='\0'&&str[0]!='\0') {
+    if(dec[0]=='\0'&&str[0]!='\0') {
         if (is_integer(str)) {
             *pos = '.';
             return true;
-        } else {
-            *pos = '.';
-            return false;
         }
+        *pos = '.';
+        return false;
     }
-    else if(dec[0]!='\0'&&str[0]!='\0') {
+    if(dec[0]!='\0'&&str[0]!='\0') {
         if (is_integer(str)==true&&is_integer(dec)==true) {
             *pos = '.';
             return true;
         }
-        else {
-            *pos = '.';
-            return false;
-        }
+        *pos = '.';
+        return false;
     }
     *pos = '.';
     return false;

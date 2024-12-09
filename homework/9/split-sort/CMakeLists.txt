@@ -1,0 +1,1 @@
+add_executable(split-sort split-sort.c)

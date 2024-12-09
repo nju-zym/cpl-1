@@ -9,8 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						37,
-						54
+						42,
+						59
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -21,7 +21,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						41
+						45
 					]
 				},
 				{
@@ -33,7 +33,8 @@
 						13,
 						23,
 						27,
-						32
+						32,
+						37
 					],
 					"jsonFile" : "directory-homework-Debug-851d0af921879e68b6a6.json",
 					"minimumCMakeVersion" : 
@@ -73,7 +74,7 @@
 					"source" : "homework/exam-1/reverse",
 					"targetIndexes" : 
 					[
-						34
+						37
 					]
 				},
 				{
@@ -88,7 +89,7 @@
 					"source" : "homework/exam-1/tictactoe",
 					"targetIndexes" : 
 					[
-						42
+						46
 					]
 				},
 				{
@@ -103,7 +104,7 @@
 					"source" : "homework/exam-1/bye-jonabell",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -138,7 +139,7 @@
 					"source" : "homework/5/sum",
 					"targetIndexes" : 
 					[
-						40
+						44
 					]
 				},
 				{
@@ -153,7 +154,7 @@
 					"source" : "homework/5/nest-permutation",
 					"targetIndexes" : 
 					[
-						11
+						13
 					]
 				},
 				{
@@ -183,7 +184,7 @@
 					"source" : "homework/5/converter-2",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -198,7 +199,7 @@
 					"source" : "homework/5/radix",
 					"targetIndexes" : 
 					[
-						33
+						36
 					]
 				},
 				{
@@ -213,7 +214,7 @@
 					"source" : "homework/5/pair",
 					"targetIndexes" : 
 					[
-						28
+						30
 					]
 				},
 				{
@@ -251,7 +252,7 @@
 					"source" : "homework/6/stack",
 					"targetIndexes" : 
 					[
-						36
+						40
 					]
 				},
 				{
@@ -266,7 +267,7 @@
 					"source" : "homework/6/queue",
 					"targetIndexes" : 
 					[
-						31
+						34
 					]
 				},
 				{
@@ -281,7 +282,7 @@
 					"source" : "homework/6/rotate",
 					"targetIndexes" : 
 					[
-						35
+						38
 					]
 				},
 				{
@@ -296,7 +297,7 @@
 					"source" : "homework/6/wine",
 					"targetIndexes" : 
 					[
-						46
+						50
 					]
 				},
 				{
@@ -326,7 +327,7 @@
 					"source" : "homework/6/counting",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -341,7 +342,7 @@
 					"source" : "homework/6/buddy",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -356,7 +357,7 @@
 					"source" : "homework/6/mines-2",
 					"targetIndexes" : 
 					[
-						10
+						12
 					]
 				},
 				{
@@ -371,7 +372,7 @@
 					"source" : "homework/6/whac-a-mole",
 					"targetIndexes" : 
 					[
-						45
+						49
 					]
 				},
 				{
@@ -403,7 +404,7 @@
 					"source" : "homework/exam-2/fake-news",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -418,7 +419,7 @@
 					"source" : "homework/exam-2/coded-lock",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -433,7 +434,7 @@
 					"source" : "homework/exam-2/wanderbell",
 					"targetIndexes" : 
 					[
-						44
+						48
 					]
 				},
 				{
@@ -466,7 +467,7 @@
 					"source" : "homework/7/interpreter",
 					"targetIndexes" : 
 					[
-						9
+						11
 					]
 				},
 				{
@@ -496,7 +497,7 @@
 					"source" : "homework/7/substr",
 					"targetIndexes" : 
 					[
-						39
+						43
 					]
 				},
 				{
@@ -511,7 +512,7 @@
 					"source" : "homework/7/pife",
 					"targetIndexes" : 
 					[
-						30
+						32
 					]
 				},
 				{
@@ -544,7 +545,7 @@
 					"source" : "homework/8/strs_cat",
 					"targetIndexes" : 
 					[
-						38
+						42
 					]
 				},
 				{
@@ -559,7 +560,7 @@
 					"source" : "homework/8/strs-interleaf",
 					"targetIndexes" : 
 					[
-						37
+						41
 					]
 				},
 				{
@@ -574,7 +575,7 @@
 					"source" : "homework/8/parse",
 					"targetIndexes" : 
 					[
-						29
+						31
 					]
 				},
 				{
@@ -589,18 +590,91 @@
 					"source" : "homework/8/tokenizer",
 					"targetIndexes" : 
 					[
-						43
+						47
+					]
+				},
+				{
+					"build" : "homework/9",
+					"childIndexes" : 
+					[
+						38,
+						39,
+						40,
+						41
+					],
+					"jsonFile" : "directory-homework.9-Debug-77fabcc60ab8bd55862c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "homework/9"
+				},
+				{
+					"build" : "homework/9/bsearch",
+					"jsonFile" : "directory-homework.9.bsearch-Debug-ac122b04470587d882ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "homework/9/bsearch",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "homework/9/split-sort",
+					"jsonFile" : "directory-homework.9.split-sort-Debug-86747abb9931829fa329.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "homework/9/split-sort",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "homework/9/fifa",
+					"jsonFile" : "directory-homework.9.fifa-Debug-629aca6622fe6d21cc33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "homework/9/fifa",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "homework/9/polynlist",
+					"jsonFile" : "directory-homework.9.polynlist-Debug-ab591d9b0b90acfa7060.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "homework/9/polynlist",
+					"targetIndexes" : 
+					[
+						33
 					]
 				},
 				{
 					"build" : "luogu",
 					"childIndexes" : 
 					[
-						38,
-						39,
-						40,
-						41,
-						42,
 						43,
 						44,
 						45,
@@ -611,7 +685,12 @@
 						50,
 						51,
 						52,
-						53
+						53,
+						54,
+						55,
+						56,
+						57,
+						58
 					],
 					"jsonFile" : "directory-luogu-Debug-778c9670328e4815bec5.json",
 					"minimumCMakeVersion" : 
@@ -629,12 +708,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1914",
 					"targetIndexes" : 
 					[
-						22
+						24
 					]
 				},
 				{
@@ -644,12 +723,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p5461",
 					"targetIndexes" : 
 					[
-						25
+						27
 					]
 				},
 				{
@@ -659,12 +738,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1309",
 					"targetIndexes" : 
 					[
-						18
+						20
 					]
 				},
 				{
@@ -674,12 +753,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p5707",
 					"targetIndexes" : 
 					[
-						27
+						29
 					]
 				},
 				{
@@ -689,12 +768,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1010",
 					"targetIndexes" : 
 					[
-						12
+						14
 					]
 				},
 				{
@@ -704,12 +783,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1429",
 					"targetIndexes" : 
 					[
-						19
+						21
 					]
 				},
 				{
@@ -719,12 +798,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p5595",
 					"targetIndexes" : 
 					[
-						26
+						28
 					]
 				},
 				{
@@ -734,12 +813,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1208",
 					"targetIndexes" : 
 					[
-						17
+						19
 					]
 				},
 				{
@@ -749,12 +828,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1601",
 					"targetIndexes" : 
 					[
-						20
+						22
 					]
 				},
 				{
@@ -764,12 +843,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1094",
 					"targetIndexes" : 
 					[
-						16
+						18
 					]
 				},
 				{
@@ -779,12 +858,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p3397",
 					"targetIndexes" : 
 					[
-						24
+						26
 					]
 				},
 				{
@@ -794,12 +873,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p2280",
 					"targetIndexes" : 
 					[
-						23
+						25
 					]
 				},
 				{
@@ -809,12 +888,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1080",
 					"targetIndexes" : 
 					[
-						14
+						16
 					]
 				},
 				{
@@ -824,12 +903,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1083",
 					"targetIndexes" : 
 					[
-						15
+						17
 					]
 				},
 				{
@@ -839,12 +918,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1019",
 					"targetIndexes" : 
 					[
-						13
+						15
 					]
 				},
 				{
@@ -854,19 +933,19 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 37,
+					"parentIndex" : 42,
 					"projectIndex" : 0,
 					"source" : "luogu/p1908",
 					"targetIndexes" : 
 					[
-						21
+						23
 					]
 				},
 				{
 					"build" : "personal",
 					"childIndexes" : 
 					[
-						55
+						60
 					],
 					"jsonFile" : "directory-personal-Debug-bda70a9690ba28f698e2.json",
 					"minimumCMakeVersion" : 
@@ -884,12 +963,12 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 54,
+					"parentIndex" : 59,
 					"projectIndex" : 0,
 					"source" : "personal/quine",
 					"targetIndexes" : 
 					[
-						32
+						35
 					]
 				}
 			],
@@ -954,7 +1033,12 @@
 						52,
 						53,
 						54,
-						55
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
 					],
 					"name" : "cpl_1",
 					"targetIndexes" : 
@@ -1005,7 +1089,11 @@
 						43,
 						44,
 						45,
-						46
+						46,
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -1030,6 +1118,13 @@
 					"id" : "brackets::@5614f9b25e11178237e3",
 					"jsonFile" : "target-brackets-Debug-81840e4ff109329c40e6.json",
 					"name" : "brackets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "bsearch::@6c41498e2102b79e471f",
+					"jsonFile" : "target-bsearch-Debug-7b0ce91bdef94ddb836f.json",
+					"name" : "bsearch",
 					"projectIndex" : 0
 				},
 				{
@@ -1075,6 +1170,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 40,
+					"id" : "fifa::@28e8157505a68f4112d1",
+					"jsonFile" : "target-fifa-Debug-101fd07a155c4f3137d9.json",
+					"name" : "fifa",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 28,
 					"id" : "interpreter::@66abfa2c600cd89bf824",
 					"jsonFile" : "target-interpreter-Debug-6e758c6deaa665f0d6dc.json",
@@ -1096,112 +1198,112 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 42,
+					"directoryIndex" : 47,
 					"id" : "p1010::@04da294f065436752844",
 					"jsonFile" : "target-p1010-Debug-782e425aa301ccb312b8.json",
 					"name" : "p1010",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 52,
+					"directoryIndex" : 57,
 					"id" : "p1019::@002ae48c51cac46e5e31",
 					"jsonFile" : "target-p1019-Debug-8393108f2573256655af.json",
 					"name" : "p1019",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 50,
+					"directoryIndex" : 55,
 					"id" : "p1080::@3bf78c2759a59797cbbc",
 					"jsonFile" : "target-p1080-Debug-5012e7b4a4c58ef19916.json",
 					"name" : "p1080",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 51,
+					"directoryIndex" : 56,
 					"id" : "p1083::@47722e5e25555ead7b80",
 					"jsonFile" : "target-p1083-Debug-dca5437f73d2621a0787.json",
 					"name" : "p1083",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 47,
+					"directoryIndex" : 52,
 					"id" : "p1094::@6570ec3972605c75f945",
 					"jsonFile" : "target-p1094-Debug-0542d495ae89f7df8772.json",
 					"name" : "p1094",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 45,
+					"directoryIndex" : 50,
 					"id" : "p1208::@5370598b9b34e37ea5b2",
 					"jsonFile" : "target-p1208-Debug-b73a58cee74ef3f72461.json",
 					"name" : "p1208",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 40,
+					"directoryIndex" : 45,
 					"id" : "p1309::@3c2c419cd910029f71da",
 					"jsonFile" : "target-p1309-Debug-85dd6ac56e9b4d801d41.json",
 					"name" : "p1309",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 43,
+					"directoryIndex" : 48,
 					"id" : "p1429::@0f94dd2c714f07ea074d",
 					"jsonFile" : "target-p1429-Debug-12a9db14b7cbd99ce1f5.json",
 					"name" : "p1429",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 46,
+					"directoryIndex" : 51,
 					"id" : "p1601::@c7f6096290620e29ec2e",
 					"jsonFile" : "target-p1601-Debug-f29a75e6cd17b00d54b0.json",
 					"name" : "p1601",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 53,
+					"directoryIndex" : 58,
 					"id" : "p1908::@dd809c940521a4e517c0",
 					"jsonFile" : "target-p1908-Debug-9bb05f3b3d38b5c0df5f.json",
 					"name" : "p1908",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 38,
+					"directoryIndex" : 43,
 					"id" : "p1914::@7a1bcb5f1205efe8e5f7",
 					"jsonFile" : "target-p1914-Debug-20d1ee700e5e5220cfe2.json",
 					"name" : "p1914",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 49,
+					"directoryIndex" : 54,
 					"id" : "p2280::@d176847f4534cb122661",
 					"jsonFile" : "target-p2280-Debug-e682fc345a53cd5f36b1.json",
 					"name" : "p2280",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 48,
+					"directoryIndex" : 53,
 					"id" : "p3397::@01ce2b37cffc6af442f0",
 					"jsonFile" : "target-p3397-Debug-29c7123e5f5549973ec5.json",
 					"name" : "p3397",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 39,
+					"directoryIndex" : 44,
 					"id" : "p5461::@eb1de4351d1da9947382",
 					"jsonFile" : "target-p5461-Debug-8d42255b028a1e4c87b4.json",
 					"name" : "p5461",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 44,
+					"directoryIndex" : 49,
 					"id" : "p5595::@f6601bb2897ced84f937",
 					"jsonFile" : "target-p5595-Debug-01243a526e8ecc1f43cf.json",
 					"name" : "p5595",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 41,
+					"directoryIndex" : 46,
 					"id" : "p5707::@7a8877bb9485138c323b",
 					"jsonFile" : "target-p5707-Debug-f3bf737664a05aa32f46.json",
 					"name" : "p5707",
@@ -1229,6 +1331,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 41,
+					"id" : "polynlist::@79546c5697a05cc6486d",
+					"jsonFile" : "target-polynlist-Debug-7df531f7ec4a8dcef95e.json",
+					"name" : "polynlist",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 15,
 					"id" : "queue::@9afbd33f28ccb21482f4",
 					"jsonFile" : "target-queue-Debug-76054ad86e2872077627.json",
@@ -1236,7 +1345,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 55,
+					"directoryIndex" : 60,
 					"id" : "quine::@19585dff6bf6b110ab7f",
 					"jsonFile" : "target-quine-Debug-b085e4d68db4276402d5.json",
 					"name" : "quine",
@@ -1261,6 +1370,13 @@
 					"id" : "rotate::@0aa5161bb963d2080de1",
 					"jsonFile" : "target-rotate-Debug-ed362379e256f17433a4.json",
 					"name" : "rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "split-sort::@b49a96abfd452ee8ec41",
+					"jsonFile" : "target-split-sort-Debug-38808046f1138c9b6700.json",
+					"name" : "split-sort",
 					"projectIndex" : 0
 				},
 				{
