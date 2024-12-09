@@ -186,3 +186,7 @@
 358	535	7554394636780806	homework/9/polynlist/polynlist.exe	38ba35772c597441
 6	161	7554394956636278	homework/9/polynlist/CMakeFiles/polynlist.dir/polynlist.c.obj	2a2355bcf30e3ed2
 163	296	7554394958200099	homework/9/polynlist/polynlist.exe	38ba35772c597441
+9	364	7554406051745424	CMakeFiles/test.dir/test.c.obj	f07c5ee6a13c9ff3
+365	603	7554406055314059	test.exe	b6550555e49a6e16
+6	162	7554406361327907	CMakeFiles/test.dir/test.c.obj	f07c5ee6a13c9ff3
+163	293	7554406362904605	test.exe	b6550555e49a6e16

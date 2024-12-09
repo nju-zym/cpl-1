@@ -5,39 +5,35 @@
 long long int p1_nums[100002];
 long long int p2_nums[100002];
 
-void print(FILE* file2, long long int temp, long long int position, char *var, int *flag);
+void print(long long int temp, long long int position, char *var, int *flag);
 
 int main() {
-    FILE *file1, *file2;
-    file1 = fopen("D:/cpl-1/homework/9/polynlist/1.in", "r");
-    file2 = fopen("D:/cpl-1/homework/9/polynlist/output.txt", "w");
-    if (file1 == NULL) {
-        perror("Error opening file");
-        return 1;
-    }
+    FILE *fp1, *fp2;
+    freopen("D:/cpl-1/homework/9/polynlist/1.in", "r", stdin);
+    //freopen("D:/cpl-1/homework/9/polynlist/output.txt", "w", stdout);
     long long int p1_order, p2_order;
-    fscanf(file1 , "%lld %lld", &p1_order, &p2_order);
+    scanf("%lld %lld", &p1_order, &p2_order);
     char var[12];
-    fscanf(file1,"%s", var);
+    scanf("%s", var);
     for (long long int i = p1_order; i >= 0; i--) {
-        fscanf(file1,"%lld", &p1_nums[i]);
+        scanf("%lld", &p1_nums[i]);
     }
     for (long long int i = p2_order; i >= 0; i--) {
-        fscanf(file1,"%lld", &p2_nums[i]);
+        scanf("%lld", &p2_nums[i]);
     }
     int plus_flag = 0, minus_flag = 0, mult_flag = 0;
     for (long long int i = p1_order > p2_order ? p1_order : p2_order; i >= 0; i--) {
         long long int temp_p1_num = i <= p1_order ? p1_nums[i] : 0;
         long long int temp_p2_num = i <= p2_order ? p2_nums[i] : 0;
         long long int temp = temp_p1_num + temp_p2_num;
-        print(file2, temp, i, var, &plus_flag);
+        print(temp, i, var, &plus_flag);
     }
     printf("\n");
     for (long long int i = p1_order > p2_order ? p1_order : p2_order; i >= 0; i--) {
         long long int temp_p1_num = i <= p1_order ? p1_nums[i] : 0;
         long long int temp_p2_num = i <= p2_order ? p2_nums[i] : 0;
         long long int temp = temp_p1_num - temp_p2_num;
-        print(file2, temp, i, var, &minus_flag);
+        print(temp, i, var, &minus_flag);
     }
     printf("\n");
     for (long long int i = p1_order + p2_order; i >= 0; i--) {
@@ -47,97 +43,97 @@ int main() {
             long long int temp_p2_num = i - j <= p2_order ? p2_nums[i - j] : 0;
             temp += temp_p1_num * temp_p2_num;
         }
-        print(file2, temp, i, var, &mult_flag);
+        print(temp, i, var, &mult_flag);
     }
-    fclose(file1);
-    fclose(file2);
+    fclose(stdin);
+    //fclose(stdout);
     return 0;
 }
 
-void print(FILE* file2, long long int temp, long long int position, char *var, int *flag) {
+void print(long long int temp, long long int position, char *var, int *flag) {
     if (position >= 2 && !*flag && temp > 1) {
-        fprintf(file2,"%lld%s^%lld", temp, var, position);
+        printf("%lld%s^%lld", temp, var, position);
         *flag = 1;
         return;
     }
     if (position >= 2 && !*flag && temp == 1) {
-        fprintf(file2, "%s^%lld", var, position);
+        printf("%s^%lld", var, position);
         *flag = 1;
         return;
     }
     if (position >= 2 && !*flag && temp == -1) {
-        fprintf(file2, "-%s^%lld", var, position);
+        printf("-%s^%lld", var, position);
         *flag = 1;
         return;
     }
     if (position >= 2 && !*flag && temp < -1) {
-        fprintf(file2, "%lld%s^%lld", temp, var, position);
+        printf("%lld%s^%lld", temp, var, position);
         *flag = 1;
         return;
     }
     if (position >= 2 && *flag && temp > 1) {
-        fprintf(file2, "+%lld%s^%lld", temp, var, position);
+        printf("+%lld%s^%lld", temp, var, position);
         return;
     }
     if (position >= 2 && *flag && temp == 1) {
-        fprintf(file2,"+%s^%lld", var, position);
+        printf("+%s^%lld", var, position);
         return;
     }
     if (position >= 2 && *flag && temp == -1) {
-        fprintf(file2, "-%s^%lld", var, position);
+        printf("-%s^%lld", var, position);
         return;
     }
     if (position >= 2 && *flag && temp < -1) {
-        fprintf(file2, "%lld%s^%lld", temp, var, position);
+        printf("%lld%s^%lld", temp, var, position);
         return;
     }
     if (position == 1 && !*flag && temp > 1) {
-        fprintf(file2,"%lld%s", temp, var);
+        printf("%lld%s", temp, var);
         *flag = 1;
         return;
     }
     if (position == 1 && !*flag && temp == 1) {
-        fprintf(file2, "%s", var);
+        printf("%s", var);
         *flag = 1;
         return;
     }
     if (position == 1 && !*flag && temp == -1) {
-        fprintf(file2, "-%s", var);
+        printf("-%s", var);
         *flag = 1;
         return;
     }
     if (position == 1 && !*flag && temp < -1) {
-        fprintf(file2, "%lld%s", temp, var);
+        printf("%lld%s", temp, var);
         *flag = 1;
         return;
     }
     if (position == 1 && *flag && temp > 1) {
-        fprintf(file2, "+%lld%s", temp, var);
+        printf("+%lld%s", temp, var);
         return;
     }
     if (position == 1 && *flag && temp == 1) {
-        fprintf(file2, "+%s", var);
+        printf("+%s", var);
         return;
     }
     if (position == 1 && *flag && temp == -1) {
-        fprintf(file2, "-%s", var);
+        printf("-%s", var);
         return;
     }
     if (position == 1 && *flag && temp < -1) {
-        fprintf(file2, "%lld%s", temp, var);
+        printf("%lld%s", temp, var);
         return;
     }
     if (position == 0 && !*flag) {
-        fprintf(file2, "%lld", temp);
+        printf("%lld", temp);
         *flag = 1;
         return;
     }
     if (position == 0 && *flag && temp > 0) {
-        fprintf(file2, "+%lld", temp);
+        printf("+%lld", temp);
         return;
     }
     if (position == 0 && *flag && temp < 0) {
-        fprintf(file2, "%lld", temp);
+        printf("%lld", temp);
         return;
     }
 }
