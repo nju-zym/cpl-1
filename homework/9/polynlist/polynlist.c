@@ -8,9 +8,8 @@ long long int p2_nums[100002];
 void print(long long int temp, long long int position, char *var, int *flag);
 
 int main() {
-    FILE *fp1, *fp2;
     freopen("D:/cpl-1/homework/9/polynlist/1.in", "r", stdin);
-    //freopen("D:/cpl-1/homework/9/polynlist/output.txt", "w", stdout);
+    freopen("D:/cpl-1/homework/9/polynlist/output.txt", "w", stdout);
     long long int p1_order, p2_order;
     scanf("%lld %lld", &p1_order, &p2_order);
     char var[12];
@@ -46,7 +45,7 @@ int main() {
         print(temp, i, var, &mult_flag);
     }
     fclose(stdin);
-    //fclose(stdout);
+    fclose(stdout);
     return 0;
 }
 

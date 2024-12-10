@@ -1,8 +1,8 @@
-# Install script for directory: D:/cpl-1/homework/5
+# Install script for directory: /mnt/d/cpl-1/homework/5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cpl_1")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,43 +27,48 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/software/toolbox/CLion/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/sum/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/sum/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/nest-permutation/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/nest-permutation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/absolute-prime/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/absolute-prime/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/converter-2/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/converter-2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/radix/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/radix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug/homework/5/pair/cmake_install.cmake")
+  include("/mnt/d/cpl-1/cmake-build-debug/homework/5/pair/cmake_install.cmake")
 endif()
 

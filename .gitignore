@@ -1,3 +1,7 @@
 # Executables
 *.exe
 *.out
+# 忽略 CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
