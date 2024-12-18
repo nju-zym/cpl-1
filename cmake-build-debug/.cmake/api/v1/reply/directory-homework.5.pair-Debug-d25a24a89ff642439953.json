@@ -1,14 +1,12 @@
 {
-	"backtraceGraph" : 
-	{
-		"commands" : [],
-		"files" : [],
-		"nodes" : []
-	},
-	"installers" : [],
-	"paths" : 
-	{
-		"build" : "homework/5/pair",
-		"source" : "homework/5/pair"
-	}
+  "backtraceGraph": {
+    "commands": [],
+    "files": [],
+    "nodes": []
+  },
+  "installers": [],
+  "paths": {
+    "build": "homework/5/pair",
+    "source": "homework/5/pair"
+  }
 }

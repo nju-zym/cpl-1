@@ -1,14 +1,12 @@
 {
-	"backtraceGraph" : 
-	{
-		"commands" : [],
-		"files" : [],
-		"nodes" : []
-	},
-	"installers" : [],
-	"paths" : 
-	{
-		"build" : "homework/6/rotate",
-		"source" : "homework/6/rotate"
-	}
+  "backtraceGraph": {
+    "commands": [],
+    "files": [],
+    "nodes": []
+  },
+  "installers": [],
+  "paths": {
+    "build": "homework/6/rotate",
+    "source": "homework/6/rotate"
+  }
 }

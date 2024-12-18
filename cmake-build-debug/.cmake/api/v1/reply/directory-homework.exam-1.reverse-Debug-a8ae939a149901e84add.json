@@ -1,14 +1,12 @@
 {
-	"backtraceGraph" : 
-	{
-		"commands" : [],
-		"files" : [],
-		"nodes" : []
-	},
-	"installers" : [],
-	"paths" : 
-	{
-		"build" : "homework/exam-1/reverse",
-		"source" : "homework/exam-1/reverse"
-	}
+  "backtraceGraph": {
+    "commands": [],
+    "files": [],
+    "nodes": []
+  },
+  "installers": [],
+  "paths": {
+    "build": "homework/exam-1/reverse",
+    "source": "homework/exam-1/reverse"
+  }
 }

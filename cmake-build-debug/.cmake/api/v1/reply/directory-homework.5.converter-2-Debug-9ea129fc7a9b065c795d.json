@@ -1,14 +1,12 @@
 {
-	"backtraceGraph" : 
-	{
-		"commands" : [],
-		"files" : [],
-		"nodes" : []
-	},
-	"installers" : [],
-	"paths" : 
-	{
-		"build" : "homework/5/converter-2",
-		"source" : "homework/5/converter-2"
-	}
+  "backtraceGraph": {
+    "commands": [],
+    "files": [],
+    "nodes": []
+  },
+  "installers": [],
+  "paths": {
+    "build": "homework/5/converter-2",
+    "source": "homework/5/converter-2"
+  }
 }

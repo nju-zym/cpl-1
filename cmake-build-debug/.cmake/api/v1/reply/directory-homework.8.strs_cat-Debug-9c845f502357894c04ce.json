@@ -1,14 +1,12 @@
 {
-	"backtraceGraph" : 
-	{
-		"commands" : [],
-		"files" : [],
-		"nodes" : []
-	},
-	"installers" : [],
-	"paths" : 
-	{
-		"build" : "homework/8/strs_cat",
-		"source" : "homework/8/strs_cat"
-	}
+  "backtraceGraph": {
+    "commands": [],
+    "files": [],
+    "nodes": []
+  },
+  "installers": [],
+  "paths": {
+    "build": "homework/8/strs_cat",
+    "source": "homework/8/strs_cat"
+  }
 }
