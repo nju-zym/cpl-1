@@ -74,6 +74,9 @@
 /mnt/d/cpl-1/cmake-build-debug/homework/exam-2/wanderbell/CMakeFiles/wanderbell.dir
 /mnt/d/cpl-1/cmake-build-debug/homework/exam-2/wanderbell/CMakeFiles/edit_cache.dir
 /mnt/d/cpl-1/cmake-build-debug/homework/exam-2/wanderbell/CMakeFiles/rebuild_cache.dir
+/mnt/d/cpl-1/cmake-build-debug/homework/exam-2/strlang/CMakeFiles/strlang.dir
+/mnt/d/cpl-1/cmake-build-debug/homework/exam-2/strlang/CMakeFiles/edit_cache.dir
+/mnt/d/cpl-1/cmake-build-debug/homework/exam-2/strlang/CMakeFiles/rebuild_cache.dir
 /mnt/d/cpl-1/cmake-build-debug/homework/7/CMakeFiles/edit_cache.dir
 /mnt/d/cpl-1/cmake-build-debug/homework/7/CMakeFiles/rebuild_cache.dir
 /mnt/d/cpl-1/cmake-build-debug/homework/7/interpreter/CMakeFiles/interpreter.dir
