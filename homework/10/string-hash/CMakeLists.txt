@@ -1,0 +1,1 @@
+add_executable(string-hash string-hash.c)

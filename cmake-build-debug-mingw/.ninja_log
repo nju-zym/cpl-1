@@ -1,17 +1,12 @@
 # ninja log v6
 9	283	7556205566736894	homework/9/polynlist/CMakeFiles/polynlist.dir/polynlist.c.obj	e351bb99151be3c6
 293	504	7556205569576483	homework/9/polynlist/polynlist.exe	38ba35772c597441
-6	173	7556266737501897	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-182	289	7556266739265912	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
-8	159	7562329570943544	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-160	310	7562329572458188	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
-12	140	7562330444268779	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-141	281	7562330445552299	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
-8	133	7562331089409232	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-135	278	7562331090671895	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
-7	157	7562337824419879	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-159	331	7562337825929670	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
-8	153	7562338416715122	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
-154	311	7562338418172771	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
 8	139	7562339515695883	homework/exam-2/strlang/CMakeFiles/strlang.dir/strlang.c.obj	81066d1ae13e42fa
 149	295	7562339517103688	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
+153	284	7563841914002682	homework/10/stack-pour/stack-pour.exe	5333e4513644f843
+6	623	7563874092218034	build.ninja	22eb3c6180c8f058
+6	152	7563841912537341	homework/10/stack-pour/CMakeFiles/stack-pour.dir/stack-pour.c.obj	3cee4b273cdaf495
+7	165	7563900502891558	homework/10/string-hash/CMakeFiles/string-hash.dir/string-hash.c.obj	7868330e2cee51b
+166	325	7563900504480215	homework/10/string-hash/string-hash.exe	bf218c02d107273c
+7	138	7563900826279926	homework/10/string-hash/CMakeFiles/string-hash.dir/string-hash.c.obj	7868330e2cee51b
+139	267	7563900827598191	homework/10/string-hash/string-hash.exe	bf218c02d107273c

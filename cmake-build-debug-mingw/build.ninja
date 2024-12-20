@@ -2396,6 +2396,217 @@ build homework/9/polynlist/rebuild_cache: phony homework/9/polynlist/CMakeFiles/
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# D:/cpl-1/homework/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/10/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10 && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/10/edit_cache: phony homework/10/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/10/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10 && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/10/rebuild_cache: phony homework/10/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/homework/10/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stack-pour
+
+
+#############################################
+# Order-only phony target for stack-pour
+
+build cmake_object_order_depends_target_stack-pour: phony || .
+
+build homework/10/stack-pour/CMakeFiles/stack-pour.dir/stack-pour.c.obj: C_COMPILER__stack-pour_unscanned_Debug D$:/cpl-1/homework/10/stack-pour/stack-pour.c || cmake_object_order_depends_target_stack-pour
+  DEP_FILE = homework\10\stack-pour\CMakeFiles\stack-pour.dir\stack-pour.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\10\stack-pour\CMakeFiles\stack-pour.dir
+  OBJECT_FILE_DIR = homework\10\stack-pour\CMakeFiles\stack-pour.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack-pour
+
+
+#############################################
+# Link the executable homework\10\stack-pour\stack-pour.exe
+
+build homework/10/stack-pour/stack-pour.exe: C_EXECUTABLE_LINKER__stack-pour_Debug homework/10/stack-pour/CMakeFiles/stack-pour.dir/stack-pour.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\10\stack-pour\CMakeFiles\stack-pour.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\10\stack-pour\stack-pour.exe
+  TARGET_IMPLIB = homework\10\stack-pour\libstack-pour.dll.a
+  TARGET_PDB = stack-pour.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/10/stack-pour/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\stack-pour && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/10/stack-pour/edit_cache: phony homework/10/stack-pour/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/10/stack-pour/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\stack-pour && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/10/stack-pour/rebuild_cache: phony homework/10/stack-pour/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/homework/10/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target file-management
+
+
+#############################################
+# Order-only phony target for file-management
+
+build cmake_object_order_depends_target_file-management: phony || .
+
+build homework/10/file-management/CMakeFiles/file-management.dir/file-management.c.obj: C_COMPILER__file-management_unscanned_Debug D$:/cpl-1/homework/10/file-management/file-management.c || cmake_object_order_depends_target_file-management
+  DEP_FILE = homework\10\file-management\CMakeFiles\file-management.dir\file-management.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\10\file-management\CMakeFiles\file-management.dir
+  OBJECT_FILE_DIR = homework\10\file-management\CMakeFiles\file-management.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file-management
+
+
+#############################################
+# Link the executable homework\10\file-management\file-management.exe
+
+build homework/10/file-management/file-management.exe: C_EXECUTABLE_LINKER__file-management_Debug homework/10/file-management/CMakeFiles/file-management.dir/file-management.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\10\file-management\CMakeFiles\file-management.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\10\file-management\file-management.exe
+  TARGET_IMPLIB = homework\10\file-management\libfile-management.dll.a
+  TARGET_PDB = file-management.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/10/file-management/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\file-management && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/10/file-management/edit_cache: phony homework/10/file-management/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/10/file-management/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\file-management && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/10/file-management/rebuild_cache: phony homework/10/file-management/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/homework/10/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string-hash
+
+
+#############################################
+# Order-only phony target for string-hash
+
+build cmake_object_order_depends_target_string-hash: phony || .
+
+build homework/10/string-hash/CMakeFiles/string-hash.dir/string-hash.c.obj: C_COMPILER__string-hash_unscanned_Debug D$:/cpl-1/homework/10/string-hash/string-hash.c || cmake_object_order_depends_target_string-hash
+  DEP_FILE = homework\10\string-hash\CMakeFiles\string-hash.dir\string-hash.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = homework\10\string-hash\CMakeFiles\string-hash.dir
+  OBJECT_FILE_DIR = homework\10\string-hash\CMakeFiles\string-hash.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string-hash
+
+
+#############################################
+# Link the executable homework\10\string-hash\string-hash.exe
+
+build homework/10/string-hash/string-hash.exe: C_EXECUTABLE_LINKER__string-hash_Debug homework/10/string-hash/CMakeFiles/string-hash.dir/string-hash.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework\10\string-hash\CMakeFiles\string-hash.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework\10\string-hash\string-hash.exe
+  TARGET_IMPLIB = homework\10\string-hash\libstring-hash.dll.a
+  TARGET_PDB = string-hash.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/10/string-hash/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\string-hash && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/10/string-hash/edit_cache: phony homework/10/string-hash/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/10/string-hash/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\homework\10\string-hash && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/10/string-hash/rebuild_cache: phony homework/10/string-hash/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # D:/cpl-1/CMakeLists.txt
 # =============================================================================
 
@@ -3488,6 +3699,95 @@ build personal/quine/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build personal/quine/rebuild_cache: phony personal/quine/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build test-2021/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\test-2021 && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test-2021/edit_cache: phony test-2021/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test-2021/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\test-2021 && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test-2021/rebuild_cache: phony test-2021/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl-1/test-2021/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sorted
+
+
+#############################################
+# Order-only phony target for sorted
+
+build cmake_object_order_depends_target_sorted: phony || .
+
+build test-2021/sorted/CMakeFiles/sorted.dir/sorted.c.obj: C_COMPILER__sorted_unscanned_Debug D$:/cpl-1/test-2021/sorted/sorted.c || cmake_object_order_depends_target_sorted
+  DEP_FILE = test-2021\sorted\CMakeFiles\sorted.dir\sorted.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = test-2021\sorted\CMakeFiles\sorted.dir
+  OBJECT_FILE_DIR = test-2021\sorted\CMakeFiles\sorted.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sorted
+
+
+#############################################
+# Link the executable test-2021\sorted\sorted.exe
+
+build test-2021/sorted/sorted.exe: C_EXECUTABLE_LINKER__sorted_Debug test-2021/sorted/CMakeFiles/sorted.dir/sorted.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = test-2021\sorted\CMakeFiles\sorted.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test-2021\sorted\sorted.exe
+  TARGET_IMPLIB = test-2021\sorted\libsorted.dll.a
+  TARGET_PDB = sorted.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build test-2021/sorted/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\test-2021\sorted && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build test-2021/sorted/edit_cache: phony test-2021/sorted/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build test-2021/sorted/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl-1\cmake-build-debug-mingw\test-2021\sorted && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\cpl-1 -BD:\cpl-1\cmake-build-debug-mingw"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build test-2021/sorted/rebuild_cache: phony test-2021/sorted/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build absolute-prime: phony homework/5/absolute-prime/absolute-prime.exe
@@ -3533,6 +3833,10 @@ build fake-news.exe: phony homework/exam-2/fake-news/fake-news.exe
 build fifa: phony homework/9/fifa/fifa.exe
 
 build fifa.exe: phony homework/9/fifa/fifa.exe
+
+build file-management: phony homework/10/file-management/file-management.exe
+
+build file-management.exe: phony homework/10/file-management/file-management.exe
 
 build interpreter: phony homework/7/interpreter/interpreter.exe
 
@@ -3646,13 +3950,25 @@ build rotate: phony homework/6/rotate/rotate.exe
 
 build rotate.exe: phony homework/6/rotate/rotate.exe
 
+build sorted: phony test-2021/sorted/sorted.exe
+
+build sorted.exe: phony test-2021/sorted/sorted.exe
+
 build split-sort: phony homework/9/split-sort/split-sort.exe
 
 build split-sort.exe: phony homework/9/split-sort/split-sort.exe
 
 build stack: phony homework/6/stack/stack.exe
 
+build stack-pour: phony homework/10/stack-pour/stack-pour.exe
+
+build stack-pour.exe: phony homework/10/stack-pour/stack-pour.exe
+
 build stack.exe: phony homework/6/stack/stack.exe
+
+build string-hash: phony homework/10/string-hash/string-hash.exe
+
+build string-hash.exe: phony homework/10/string-hash/string-hash.exe
 
 build strlang: phony homework/exam-2/strlang/strlang.exe
 
@@ -3704,14 +4020,42 @@ build wine.exe: phony homework/6/wine/wine.exe
 #############################################
 # Folder: D:/cpl-1/cmake-build-debug-mingw
 
-build all: phony test.exe homework/all luogu/all personal/all
+build all: phony test.exe homework/all luogu/all personal/all test-2021/all
 
 # =============================================================================
 
 #############################################
 # Folder: D:/cpl-1/cmake-build-debug-mingw/homework
 
-build homework/all: phony homework/exam-1/all homework/5/all homework/6/all homework/exam-2/all homework/7/all homework/8/all homework/9/all
+build homework/all: phony homework/exam-1/all homework/5/all homework/6/all homework/exam-2/all homework/7/all homework/8/all homework/9/all homework/10/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/homework/10
+
+build homework/10/all: phony homework/10/stack-pour/all homework/10/file-management/all homework/10/string-hash/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/homework/10/file-management
+
+build homework/10/file-management/all: phony homework/10/file-management/file-management.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/homework/10/stack-pour
+
+build homework/10/stack-pour/all: phony homework/10/stack-pour/stack-pour.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/homework/10/string-hash
+
+build homework/10/string-hash/all: phony homework/10/string-hash/string-hash.exe
 
 # =============================================================================
 
@@ -4134,20 +4478,34 @@ build personal/all: phony personal/quine/all
 build personal/quine/all: phony personal/quine/quine.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/test-2021
+
+build test-2021/all: phony test-2021/sorted/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl-1/cmake-build-debug-mingw/test-2021/sorted
+
+build test-2021/sorted/all: phony test-2021/sorted/sorted.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/6/CMakeLists.txt D$:/cpl-1/homework/6/brackets/CMakeLists.txt D$:/cpl-1/homework/6/buddy/CMakeLists.txt D$:/cpl-1/homework/6/counting/CMakeLists.txt D$:/cpl-1/homework/6/mines-2/CMakeLists.txt D$:/cpl-1/homework/6/queue/CMakeLists.txt D$:/cpl-1/homework/6/rotate/CMakeLists.txt D$:/cpl-1/homework/6/stack/CMakeLists.txt D$:/cpl-1/homework/6/whac-a-mole/CMakeLists.txt D$:/cpl-1/homework/6/wine/CMakeLists.txt D$:/cpl-1/homework/7/CMakeLists.txt D$:/cpl-1/homework/7/bigtitle/CMakeLists.txt D$:/cpl-1/homework/7/interpreter/CMakeLists.txt D$:/cpl-1/homework/7/pife/CMakeLists.txt D$:/cpl-1/homework/7/substr/CMakeLists.txt D$:/cpl-1/homework/8/CMakeLists.txt D$:/cpl-1/homework/8/parse/CMakeLists.txt D$:/cpl-1/homework/8/strs-interleaf/CMakeLists.txt D$:/cpl-1/homework/8/strs_cat/CMakeLists.txt D$:/cpl-1/homework/8/tokenizer/CMakeLists.txt D$:/cpl-1/homework/9/CMakeLists.txt D$:/cpl-1/homework/9/bsearch/CMakeLists.txt D$:/cpl-1/homework/9/fifa/CMakeLists.txt D$:/cpl-1/homework/9/polynlist/CMakeLists.txt D$:/cpl-1/homework/9/split-sort/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/homework/exam-2/CMakeLists.txt D$:/cpl-1/homework/exam-2/coded-lock/CMakeLists.txt D$:/cpl-1/homework/exam-2/fake-news/CMakeLists.txt D$:/cpl-1/homework/exam-2/strlang/CMakeLists.txt D$:/cpl-1/homework/exam-2/wanderbell/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/10/CMakeLists.txt D$:/cpl-1/homework/10/file-management/CMakeLists.txt D$:/cpl-1/homework/10/stack-pour/CMakeLists.txt D$:/cpl-1/homework/10/string-hash/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/6/CMakeLists.txt D$:/cpl-1/homework/6/brackets/CMakeLists.txt D$:/cpl-1/homework/6/buddy/CMakeLists.txt D$:/cpl-1/homework/6/counting/CMakeLists.txt D$:/cpl-1/homework/6/mines-2/CMakeLists.txt D$:/cpl-1/homework/6/queue/CMakeLists.txt D$:/cpl-1/homework/6/rotate/CMakeLists.txt D$:/cpl-1/homework/6/stack/CMakeLists.txt D$:/cpl-1/homework/6/whac-a-mole/CMakeLists.txt D$:/cpl-1/homework/6/wine/CMakeLists.txt D$:/cpl-1/homework/7/CMakeLists.txt D$:/cpl-1/homework/7/bigtitle/CMakeLists.txt D$:/cpl-1/homework/7/interpreter/CMakeLists.txt D$:/cpl-1/homework/7/pife/CMakeLists.txt D$:/cpl-1/homework/7/substr/CMakeLists.txt D$:/cpl-1/homework/8/CMakeLists.txt D$:/cpl-1/homework/8/parse/CMakeLists.txt D$:/cpl-1/homework/8/strs-interleaf/CMakeLists.txt D$:/cpl-1/homework/8/strs_cat/CMakeLists.txt D$:/cpl-1/homework/8/tokenizer/CMakeLists.txt D$:/cpl-1/homework/9/CMakeLists.txt D$:/cpl-1/homework/9/bsearch/CMakeLists.txt D$:/cpl-1/homework/9/fifa/CMakeLists.txt D$:/cpl-1/homework/9/polynlist/CMakeLists.txt D$:/cpl-1/homework/9/split-sort/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/homework/exam-2/CMakeLists.txt D$:/cpl-1/homework/exam-2/coded-lock/CMakeLists.txt D$:/cpl-1/homework/exam-2/fake-news/CMakeLists.txt D$:/cpl-1/homework/exam-2/strlang/CMakeLists.txt D$:/cpl-1/homework/exam-2/wanderbell/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/cpl-1/test-2021/CMakeLists.txt D$:/cpl-1/test-2021/sorted/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/6/CMakeLists.txt D$:/cpl-1/homework/6/brackets/CMakeLists.txt D$:/cpl-1/homework/6/buddy/CMakeLists.txt D$:/cpl-1/homework/6/counting/CMakeLists.txt D$:/cpl-1/homework/6/mines-2/CMakeLists.txt D$:/cpl-1/homework/6/queue/CMakeLists.txt D$:/cpl-1/homework/6/rotate/CMakeLists.txt D$:/cpl-1/homework/6/stack/CMakeLists.txt D$:/cpl-1/homework/6/whac-a-mole/CMakeLists.txt D$:/cpl-1/homework/6/wine/CMakeLists.txt D$:/cpl-1/homework/7/CMakeLists.txt D$:/cpl-1/homework/7/bigtitle/CMakeLists.txt D$:/cpl-1/homework/7/interpreter/CMakeLists.txt D$:/cpl-1/homework/7/pife/CMakeLists.txt D$:/cpl-1/homework/7/substr/CMakeLists.txt D$:/cpl-1/homework/8/CMakeLists.txt D$:/cpl-1/homework/8/parse/CMakeLists.txt D$:/cpl-1/homework/8/strs-interleaf/CMakeLists.txt D$:/cpl-1/homework/8/strs_cat/CMakeLists.txt D$:/cpl-1/homework/8/tokenizer/CMakeLists.txt D$:/cpl-1/homework/9/CMakeLists.txt D$:/cpl-1/homework/9/bsearch/CMakeLists.txt D$:/cpl-1/homework/9/fifa/CMakeLists.txt D$:/cpl-1/homework/9/polynlist/CMakeLists.txt D$:/cpl-1/homework/9/split-sort/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/homework/exam-2/CMakeLists.txt D$:/cpl-1/homework/exam-2/coded-lock/CMakeLists.txt D$:/cpl-1/homework/exam-2/fake-news/CMakeLists.txt D$:/cpl-1/homework/exam-2/strlang/CMakeLists.txt D$:/cpl-1/homework/exam-2/wanderbell/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl-1/CMakeLists.txt D$:/cpl-1/homework/10/CMakeLists.txt D$:/cpl-1/homework/10/file-management/CMakeLists.txt D$:/cpl-1/homework/10/stack-pour/CMakeLists.txt D$:/cpl-1/homework/10/string-hash/CMakeLists.txt D$:/cpl-1/homework/5/CMakeLists.txt D$:/cpl-1/homework/5/absolute-prime/CMakeLists.txt D$:/cpl-1/homework/5/converter-2/CMakeLists.txt D$:/cpl-1/homework/5/nest-permutation/CMakeLists.txt D$:/cpl-1/homework/5/pair/CMakeLists.txt D$:/cpl-1/homework/5/radix/CMakeLists.txt D$:/cpl-1/homework/5/sum/CMakeLists.txt D$:/cpl-1/homework/6/CMakeLists.txt D$:/cpl-1/homework/6/brackets/CMakeLists.txt D$:/cpl-1/homework/6/buddy/CMakeLists.txt D$:/cpl-1/homework/6/counting/CMakeLists.txt D$:/cpl-1/homework/6/mines-2/CMakeLists.txt D$:/cpl-1/homework/6/queue/CMakeLists.txt D$:/cpl-1/homework/6/rotate/CMakeLists.txt D$:/cpl-1/homework/6/stack/CMakeLists.txt D$:/cpl-1/homework/6/whac-a-mole/CMakeLists.txt D$:/cpl-1/homework/6/wine/CMakeLists.txt D$:/cpl-1/homework/7/CMakeLists.txt D$:/cpl-1/homework/7/bigtitle/CMakeLists.txt D$:/cpl-1/homework/7/interpreter/CMakeLists.txt D$:/cpl-1/homework/7/pife/CMakeLists.txt D$:/cpl-1/homework/7/substr/CMakeLists.txt D$:/cpl-1/homework/8/CMakeLists.txt D$:/cpl-1/homework/8/parse/CMakeLists.txt D$:/cpl-1/homework/8/strs-interleaf/CMakeLists.txt D$:/cpl-1/homework/8/strs_cat/CMakeLists.txt D$:/cpl-1/homework/8/tokenizer/CMakeLists.txt D$:/cpl-1/homework/9/CMakeLists.txt D$:/cpl-1/homework/9/bsearch/CMakeLists.txt D$:/cpl-1/homework/9/fifa/CMakeLists.txt D$:/cpl-1/homework/9/polynlist/CMakeLists.txt D$:/cpl-1/homework/9/split-sort/CMakeLists.txt D$:/cpl-1/homework/CMakeLists.txt D$:/cpl-1/homework/exam-1/CMakeLists.txt D$:/cpl-1/homework/exam-1/bye-jonabell/CMakeLists.txt D$:/cpl-1/homework/exam-1/reverse/CMakeLists.txt D$:/cpl-1/homework/exam-1/tictactoe/CMakeLists.txt D$:/cpl-1/homework/exam-2/CMakeLists.txt D$:/cpl-1/homework/exam-2/coded-lock/CMakeLists.txt D$:/cpl-1/homework/exam-2/fake-news/CMakeLists.txt D$:/cpl-1/homework/exam-2/strlang/CMakeLists.txt D$:/cpl-1/homework/exam-2/wanderbell/CMakeLists.txt D$:/cpl-1/luogu/CMakeLists.txt D$:/cpl-1/luogu/p1010/CMakeLists.txt D$:/cpl-1/luogu/p1019/CMakeLists.txt D$:/cpl-1/luogu/p1080/CMakeLists.txt D$:/cpl-1/luogu/p1083/CMakeLists.txt D$:/cpl-1/luogu/p1094/CMakeLists.txt D$:/cpl-1/luogu/p1208/CMakeLists.txt D$:/cpl-1/luogu/p1309/CMakeLists.txt D$:/cpl-1/luogu/p1429/CMakeLists.txt D$:/cpl-1/luogu/p1601/CMakeLists.txt D$:/cpl-1/luogu/p1908/CMakeLists.txt D$:/cpl-1/luogu/p1914/CMakeLists.txt D$:/cpl-1/luogu/p2280/CMakeLists.txt D$:/cpl-1/luogu/p3397/CMakeLists.txt D$:/cpl-1/luogu/p5461/CMakeLists.txt D$:/cpl-1/luogu/p5595/CMakeLists.txt D$:/cpl-1/luogu/p5707/CMakeLists.txt D$:/cpl-1/personal/CMakeLists.txt D$:/cpl-1/personal/quine/CMakeLists.txt D$:/cpl-1/test-2021/CMakeLists.txt D$:/cpl-1/test-2021/sorted/CMakeLists.txt D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

@@ -77,3 +77,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/mnt/d/cpl-1/cmake-build-debug-wsl/homework/9/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/mnt/d/cpl-1/cmake-build-debug-wsl/homework/10/cmake_install.cmake")
+endif()
+
