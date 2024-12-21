@@ -1,136 +1,170 @@
+//
+// Created by 35861 on 24-12-20.
+//
 #include <stdio.h>
-long long int p1_nums[100002];
-long long int p2_nums[100002];
+#include <stdlib.h>
+typedef struct ch_node {
+    char ch;
+    struct ch_node *prev;
+    struct ch_node *next;
+    struct ch_node *last_same;
+} ch_node;
 
-void print(long long int temp, long long int position, char *var, int *flag);
+void print(int k);
+
+void add_node(char ch);
+
+void del_node(char ch);
+
+int flag_up(char ch);
+
+ch_node *head = NULL;
+ch_node *tail = NULL;
+ch_node *up_tail = NULL;
+ch_node *low_tail = NULL;
 
 int main() {
-    FILE *fp1, *fp2;
-    freopen("D:/cpl-1/homework/9/polynlist/1.in", "r", stdin);
-    //freopen("D:/cpl-1/homework/9/polynlist/output.txt", "w", stdout);
-    long long int p1_order, p2_order;
-    scanf("%lld %lld", &p1_order, &p2_order);
-    char var[12];
-    scanf("%s", var);
-    for (long long int i = p1_order; i >= 0; i--) {
-        scanf("%lld", &p1_nums[i]);
-    }
-    for (long long int i = p2_order; i >= 0; i--) {
-        scanf("%lld", &p2_nums[i]);
-    }
-    int plus_flag = 0, minus_flag = 0, mult_flag = 0;
-    for (long long int i = p1_order > p2_order ? p1_order : p2_order; i >= 0; i--) {
-        long long int temp_p1_num = i <= p1_order ? p1_nums[i] : 0;
-        long long int temp_p2_num = i <= p2_order ? p2_nums[i] : 0;
-        long long int temp = temp_p1_num + temp_p2_num;
-        print(temp, i, var, &plus_flag);
-    }
-    printf("\n");
-    for (long long int i = p1_order > p2_order ? p1_order : p2_order; i >= 0; i--) {
-        long long int temp_p1_num = i <= p1_order ? p1_nums[i] : 0;
-        long long int temp_p2_num = i <= p2_order ? p2_nums[i] : 0;
-        long long int temp = temp_p1_num - temp_p2_num;
-        print(temp, i, var, &minus_flag);
-    }
-    printf("\n");
-    for (long long int i = p1_order + p2_order; i >= 0; i--) {
-        long long int temp = 0;
-        for (long long int j = i; j >= 0; j--) {
-            long long int temp_p1_num = j <= p1_order ? p1_nums[j] : 0;
-            long long int temp_p2_num = i - j <= p2_order ? p2_nums[i - j] : 0;
-            temp += temp_p1_num * temp_p2_num;
+    int q;
+    scanf("%d", &q);
+    getchar();
+    while (q--) {
+        char ch;
+        while ((ch = getchar()) != '\n') {
+            if (ch == '?') {
+                getchar();
+                int k;
+                scanf("%d", &k);
+                print(k);
+            } else if (ch == 'm' || ch == 'M') del_node(ch);
+            else add_node(ch);
         }
-        print(temp, i, var, &mult_flag);
     }
-    fclose(stdin);
-    //fclose(stdout);
     return 0;
 }
 
-void print(long long int temp, long long int position, char *var, int *flag) {
-    if (position >= 2 && !*flag && temp > 1) {
-        printf("%lld%s^%lld", temp, var, position);
-        *flag = 1;
-        return;
-    }
-    if (position >= 2 && !*flag && temp == 1) {
-        printf("%s^%lld", var, position);
-        *flag = 1;
-        return;
-    }
-    if (position >= 2 && !*flag && temp == -1) {
-        printf("-%s^%lld", var, position);
-        *flag = 1;
-        return;
-    }
-    if (position >= 2 && !*flag && temp < -1) {
-        printf("%lld%s^%lld", temp, var, position);
-        *flag = 1;
-        return;
-    }
-    if (position >= 2 && *flag && temp > 1) {
-        printf("+%lld%s^%lld", temp, var, position);
-        return;
-    }
-    if (position >= 2 && *flag && temp == 1) {
-        printf("+%s^%lld", var, position);
-        return;
-    }
-    if (position >= 2 && *flag && temp == -1) {
-        printf("-%s^%lld", var, position);
-        return;
-    }
-    if (position >= 2 && *flag && temp < -1) {
-        printf("%lld%s^%lld", temp, var, position);
-        return;
-    }
-    if (position == 1 && !*flag && temp > 1) {
-        printf("%lld%s", temp, var);
-        *flag = 1;
-        return;
-    }
-    if (position == 1 && !*flag && temp == 1) {
-        printf("%s", var);
-        *flag = 1;
-        return;
-    }
-    if (position == 1 && !*flag && temp == -1) {
-        printf("-%s", var);
-        *flag = 1;
-        return;
-    }
-    if (position == 1 && !*flag && temp < -1) {
-        printf("%lld%s", temp, var);
-        *flag = 1;
-        return;
-    }
-    if (position == 1 && *flag && temp > 1) {
-        printf("+%lld%s", temp, var);
-        return;
-    }
-    if (position == 1 && *flag && temp == 1) {
-        printf("+%s", var);
-        return;
-    }
-    if (position == 1 && *flag && temp == -1) {
-        printf("-%s", var);
-        return;
-    }
-    if (position == 1 && *flag && temp < -1) {
-        printf("%lld%s", temp, var);
-        return;
-    }
-    if (position == 0 && !*flag) {
-        printf("%lld", temp);
-        *flag = 1;
-        return;
-    }
-    if (position == 0 && *flag && temp > 0) {
-        printf("+%lld", temp);
-        return;
-    }
-    if (position == 0 && *flag && temp < 0) {
-        printf("%lld", temp);
-        return;
+int flag_up(char ch) {
+    if (ch >= 'a' && ch <= 'z') return 0;
+    if (ch >= 'A' && ch <= 'Z') return 1;
+    return -1;
+}
+
+void add_node(char ch) {
+    if (head == NULL) {
+        head = (ch_node *) malloc(sizeof(ch_node));
+        tail = head;
+        head->ch = ch;
+        head->prev = NULL;
+        head->next = NULL;
+        head->last_same = NULL;
+        if (flag_up(ch)) up_tail = head;
+        else low_tail = head;
+    } else {
+        ch_node *new_node = (ch_node *) malloc(sizeof(ch_node));
+        new_node->ch = ch;
+        new_node->prev = tail;
+        new_node->next = NULL;
+        new_node->last_same = NULL;
+        if (flag_up(ch)) {
+            if (up_tail) new_node->last_same = up_tail;
+            else new_node->last_same = NULL;
+            up_tail = new_node;
+        } else {
+            if (low_tail) new_node->last_same = low_tail;
+            else new_node->last_same = NULL;
+            low_tail = new_node;
+        }
+        tail->next = new_node;
+        tail = new_node;
     }
 }
+
+void print(int k) {
+    int temp = k;
+    ch_node *temp_node = tail;
+    char *str = (char *) calloc(k + 2, sizeof(char));
+    str[k] = '\n';
+    str[k + 1] = '\0';
+    while (temp--) {
+        str[temp] = temp_node->ch;
+        temp_node = temp_node->prev;
+    }
+    printf("%s", str);
+    free(str);
+}
+
+void del_node(char ch) {
+    if (flag_up(ch) && up_tail) {
+        if (up_tail == head) {
+            if (head->next != NULL) {
+                head = head->next;
+                head->prev = NULL;
+            }
+            else {
+                head = NULL;
+                tail = NULL;
+            }
+            free(up_tail);
+            up_tail = NULL;
+        }
+        else if (up_tail == tail) {
+            tail = tail->prev;
+            tail->next = NULL;
+            ch_node *temp_node = up_tail;
+            if (up_tail->last_same != NULL) {
+                up_tail = up_tail->last_same;
+            }
+            else up_tail = NULL;
+            free(temp_node);
+        }
+        else {
+            if (up_tail->prev) {
+                if (up_tail->next) up_tail->prev->next = up_tail->next;
+                else up_tail->prev->next = NULL;
+            }
+            if (up_tail->next) {
+                if (up_tail->prev) up_tail->next->prev = up_tail->prev;
+                else up_tail->next->prev = NULL;
+            }
+            ch_node *temp = up_tail;
+            up_tail = up_tail->last_same ? up_tail->last_same : NULL;
+            free(temp);
+        }
+    } else if (!flag_up(ch) && low_tail) {
+        if (low_tail == head) {
+            if (head->next != NULL) {
+                head = head->next;
+                head->prev = NULL;
+            }
+            else {
+                head = NULL;
+                tail = NULL;
+            }
+            free(low_tail);
+            low_tail = NULL;
+        }
+        else if (low_tail == tail) {
+            tail = tail->prev;
+            tail->next = NULL;
+            ch_node *temp_node = low_tail;
+            if (low_tail->last_same != NULL) {
+                low_tail = low_tail->last_same;
+            }
+            else low_tail = NULL;
+            free(temp_node);
+        }
+        else {
+            if (low_tail->prev) {
+                if (low_tail->next) low_tail->prev->next = low_tail->next;
+                else low_tail->prev->next = NULL;
+            }
+            if (low_tail->next) {
+                if (low_tail->prev) low_tail->next->prev = low_tail->prev;
+                else low_tail->next->prev = NULL;
+            }
+            ch_node *temp = low_tail;
+            low_tail = low_tail->last_same ? low_tail->last_same : NULL;
+            free(temp);
+        }
+    }
+}
+
