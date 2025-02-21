@@ -1,4 +1,4 @@
-# Install script for directory: D:/cpl-1/luogu
+# Install script for directory: C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/luogu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,86 +34,91 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/software/toolbox/CLion/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/software/JetBrains/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1914/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1914/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p5461/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p5461/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1309/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1309/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p5707/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p5707/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1010/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1010/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1429/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1429/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p5595/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p5595/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1208/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1208/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1601/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1601/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1094/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1094/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p3397/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p3397/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p2280/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p2280/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1080/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1080/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1083/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1083/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1019/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1019/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/cpl-1/cmake-build-debug-mingw/luogu/p1908/cmake_install.cmake")
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1908/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/luogu/p1152/cmake_install.cmake")
 endif()
 

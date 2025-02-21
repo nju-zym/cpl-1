@@ -1,170 +1,146 @@
-//
-// Created by 35861 on 24-12-20.
-//
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct ch_node {
-    char ch;
-    struct ch_node *prev;
-    struct ch_node *next;
-    struct ch_node *last_same;
-} ch_node;
+#include <stdbool.h>
+#include <omp.h>
 
-void print(int k);
+// 二分查找函数
+int binary_search(int arr[], int size, int target) {
+    int left = 0, right = size - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            return mid;
+        } else if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return -1;  // 未找到
+}
 
-void add_node(char ch);
+// 比较整数的函数
+int compare_ints(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
 
-void del_node(char ch);
+// 生成所有四元组并返回
+int** generate_quads(int positions[], int count, int* quad_count) {
+    *quad_count = 0;
+    int capacity = 100;
+    int** quads = malloc(capacity * sizeof(int*));
 
-int flag_up(char ch);
+    for (int a = 0; a < count; a++) {
+        for (int b = a + 1; b < count; b++) {
+            int diff = positions[b] - positions[a];
+            if (diff <= 0) continue;
 
-ch_node *head = NULL;
-ch_node *tail = NULL;
-ch_node *up_tail = NULL;
-ch_node *low_tail = NULL;
+            int c = positions[b] + diff;
+            int c_idx = binary_search(positions, count, c);
+            if (c_idx == -1 || c_idx <= b) continue;
+
+            int d = c + diff;
+            int d_idx = binary_search(positions, count, d);
+            if (d_idx == -1 || d_idx <= c_idx) continue;
+
+            // 确保四元组数量不超过预分配的容量
+            if (*quad_count >= capacity) {
+                capacity += 100;
+                quads = realloc(quads, capacity * sizeof(int*));
+            }
+
+            quads[*quad_count] = malloc(4 * sizeof(int));
+            quads[*quad_count][0] = positions[a];
+            quads[*quad_count][1] = positions[b];
+            quads[*quad_count][2] = c;
+            quads[*quad_count][3] = d;
+            (*quad_count)++;
+        }
+    }
+
+    return quads;
+}
+
+// 回溯法，增加剪枝
+bool backtrack(int** quads, int quad_count, int m, bool* used, int start) {
+    if (m == 0) {
+        return true;
+    }
+
+    for (int i = start; i < quad_count; i++) {
+        int a = quads[i][0];
+        int b = quads[i][1];
+        int c = quads[i][2];
+        int d = quads[i][3];
+
+        // 如果已经被使用，跳过
+        if (used[a] || used[b] || used[c] || used[d]) continue;
+
+        // 如果当前四元组选择后仍然有效，进行回溯
+        used[a] = used[b] = used[c] = used[d] = true;
+        if (backtrack(quads, quad_count, m - 1, used, i + 1)) {
+            return true;
+        }
+        used[a] = used[b] = used[c] = used[d] = false;
+    }
+    return false;
+}
+
+bool couldDivided(int i, int j, int m) {
+    int n = 4 * m + 2;
+    int positions[4 * m];
+    int count = 0;
+
+    // 构造 positions 数组
+    for (int k = 1; k <= n; k++) {
+        if (k != i && k != j) positions[count++] = k;
+    }
+
+    qsort(positions, count, sizeof(int), compare_ints);
+
+    int quad_count;
+    int** quads = generate_quads(positions, count, &quad_count);
+
+    bool* used = calloc(n + 1, sizeof(bool));  // 用于标记已使用的数
+    bool result = backtrack(quads, quad_count, m, used, 0);
+
+    free(used);
+    for (int k = 0; k < quad_count; k++) {
+        free(quads[k]);
+    }
+    free(quads);
+
+    return result;
+}
 
 int main() {
-    int q;
-    scanf("%d", &q);
-    getchar();
-    while (q--) {
-        char ch;
-        while ((ch = getchar()) != '\n') {
-            if (ch == '?') {
-                getchar();
-                int k;
-                scanf("%d", &k);
-                print(k);
-            } else if (ch == 'm' || ch == 'M') del_node(ch);
-            else add_node(ch);
+    int max_m;
+    printf("Enter max m (m >= 1): ");
+    scanf("%d", &max_m);
+
+    // 并行计算变量
+    int valid = 0; // 在这里声明 valid 变量
+    #pragma omp parallel for schedule(dynamic) reduction(+:valid)
+    for (int m = 1; m <= max_m; m++) {
+        int n = 4 * m + 2;
+        int total = n * (n - 1) / 2;  // 计算总的可能组合
+        int local_valid = 0; // 本线程局部valid
+
+        // 对所有 i, j 进行遍历
+        for (int i = 1; i <= n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                if (couldDivided(i, j, m)) local_valid++;
+            }
         }
+
+        #pragma omp atomic
+        valid += local_valid; // 合并局部结果到全局valid
+
+        double probability = (double)local_valid / total;
+        printf("m=%2d | Valid=%4d/%-4d | P=%.4f | %s\n",
+               m, local_valid, total, probability,
+               probability > 0.125 ? "P > 1/8 yes" : "P <= 1/8 no");
     }
+
     return 0;
 }
-
-int flag_up(char ch) {
-    if (ch >= 'a' && ch <= 'z') return 0;
-    if (ch >= 'A' && ch <= 'Z') return 1;
-    return -1;
-}
-
-void add_node(char ch) {
-    if (head == NULL) {
-        head = (ch_node *) malloc(sizeof(ch_node));
-        tail = head;
-        head->ch = ch;
-        head->prev = NULL;
-        head->next = NULL;
-        head->last_same = NULL;
-        if (flag_up(ch)) up_tail = head;
-        else low_tail = head;
-    } else {
-        ch_node *new_node = (ch_node *) malloc(sizeof(ch_node));
-        new_node->ch = ch;
-        new_node->prev = tail;
-        new_node->next = NULL;
-        new_node->last_same = NULL;
-        if (flag_up(ch)) {
-            if (up_tail) new_node->last_same = up_tail;
-            else new_node->last_same = NULL;
-            up_tail = new_node;
-        } else {
-            if (low_tail) new_node->last_same = low_tail;
-            else new_node->last_same = NULL;
-            low_tail = new_node;
-        }
-        tail->next = new_node;
-        tail = new_node;
-    }
-}
-
-void print(int k) {
-    int temp = k;
-    ch_node *temp_node = tail;
-    char *str = (char *) calloc(k + 2, sizeof(char));
-    str[k] = '\n';
-    str[k + 1] = '\0';
-    while (temp--) {
-        str[temp] = temp_node->ch;
-        temp_node = temp_node->prev;
-    }
-    printf("%s", str);
-    free(str);
-}
-
-void del_node(char ch) {
-    if (flag_up(ch) && up_tail) {
-        if (up_tail == head) {
-            if (head->next != NULL) {
-                head = head->next;
-                head->prev = NULL;
-            }
-            else {
-                head = NULL;
-                tail = NULL;
-            }
-            free(up_tail);
-            up_tail = NULL;
-        }
-        else if (up_tail == tail) {
-            tail = tail->prev;
-            tail->next = NULL;
-            ch_node *temp_node = up_tail;
-            if (up_tail->last_same != NULL) {
-                up_tail = up_tail->last_same;
-            }
-            else up_tail = NULL;
-            free(temp_node);
-        }
-        else {
-            if (up_tail->prev) {
-                if (up_tail->next) up_tail->prev->next = up_tail->next;
-                else up_tail->prev->next = NULL;
-            }
-            if (up_tail->next) {
-                if (up_tail->prev) up_tail->next->prev = up_tail->prev;
-                else up_tail->next->prev = NULL;
-            }
-            ch_node *temp = up_tail;
-            up_tail = up_tail->last_same ? up_tail->last_same : NULL;
-            free(temp);
-        }
-    } else if (!flag_up(ch) && low_tail) {
-        if (low_tail == head) {
-            if (head->next != NULL) {
-                head = head->next;
-                head->prev = NULL;
-            }
-            else {
-                head = NULL;
-                tail = NULL;
-            }
-            free(low_tail);
-            low_tail = NULL;
-        }
-        else if (low_tail == tail) {
-            tail = tail->prev;
-            tail->next = NULL;
-            ch_node *temp_node = low_tail;
-            if (low_tail->last_same != NULL) {
-                low_tail = low_tail->last_same;
-            }
-            else low_tail = NULL;
-            free(temp_node);
-        }
-        else {
-            if (low_tail->prev) {
-                if (low_tail->next) low_tail->prev->next = low_tail->next;
-                else low_tail->prev->next = NULL;
-            }
-            if (low_tail->next) {
-                if (low_tail->prev) low_tail->next->prev = low_tail->prev;
-                else low_tail->next->prev = NULL;
-            }
-            ch_node *temp = low_tail;
-            low_tail = low_tail->last_same ? low_tail->last_same : NULL;
-            free(temp);
-        }
-    }
-}
-

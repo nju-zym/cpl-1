@@ -1,4 +1,4 @@
-# Install script for directory: D:/cpl-1/homework/8/strs_cat
+# Install script for directory: C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/homework/8/strs_cat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/software/toolbox/CLion/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/software/JetBrains/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
