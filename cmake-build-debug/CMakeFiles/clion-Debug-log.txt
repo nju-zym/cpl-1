@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/d/cpl-1 -B /mnt/d/cpl-1/cmake-build-debug
--- Configuring done (3.0s)
--- Generating done (11.7s)
--- Build files have been written to: /mnt/d/cpl-1/cmake-build-debug
