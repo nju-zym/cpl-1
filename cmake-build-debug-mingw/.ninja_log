@@ -5,7 +5,7 @@
 149	295	7562339517103688	homework/exam-2/strlang/strlang.exe	cc4a57dd9f4f9fe0
 153	284	7563841914002682	homework/10/stack-pour/stack-pour.exe	5333e4513644f843
 7	138	7563900826279926	homework/10/string-hash/CMakeFiles/string-hash.dir/string-hash.c.obj	7868330e2cee51b
-6	623	7614175276382876	build.ninja	22eb3c6180c8f058
+6	623	7621035814524118	build.ninja	22eb3c6180c8f058
 6	152	7563841912537341	homework/10/stack-pour/CMakeFiles/stack-pour.dir/stack-pour.c.obj	3cee4b273cdaf495
 139	267	7563900827598191	homework/10/string-hash/string-hash.exe	bf218c02d107273c
 8	125	7564022678759321	homework/10/cycle-detect/CMakeFiles/cycle-detect.dir/cycle-detect.c.obj	1f1e0f1312e908a1

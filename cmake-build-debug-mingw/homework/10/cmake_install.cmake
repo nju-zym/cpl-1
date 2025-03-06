@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/homework/10
+# Install script for directory: D:/file/Code/cpl/cpl-1/homework/10
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,26 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/homework/10/stack-pour/cmake_install.cmake")
+  include("D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw/homework/10/stack-pour/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/homework/10/file-management/cmake_install.cmake")
+  include("D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw/homework/10/file-management/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/homework/10/string-hash/cmake_install.cmake")
+  include("D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw/homework/10/string-hash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/homework/10/cycle-detect/cmake_install.cmake")
+  include("D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw/homework/10/cycle-detect/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/cmake-build-debug-mingw/homework/10/keyboard/cmake_install.cmake")
+  include("D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw/homework/10/keyboard/cmake_install.cmake")
 endif()
 

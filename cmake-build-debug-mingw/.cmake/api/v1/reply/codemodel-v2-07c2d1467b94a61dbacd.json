@@ -1912,8 +1912,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/zym/OneDrive - \u5357\u4eac\u5927\u5b66/\u6587\u6863/cpl/cpl-1/cmake-build-debug-mingw",
-		"source" : "C:/Users/zym/OneDrive - \u5357\u4eac\u5927\u5b66/\u6587\u6863/cpl/cpl-1"
+		"build" : "D:/file/Code/cpl/cpl-1/cmake-build-debug-mingw",
+		"source" : "D:/file/Code/cpl/cpl-1"
 	},
 	"version" : 
 	{

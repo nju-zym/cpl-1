@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/homework/9/bsearch
+# Install script for directory: D:/file/Code/cpl/cpl-1/homework/9/bsearch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

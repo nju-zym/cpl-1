@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zym/OneDrive - 南京大学/文档/cpl/cpl-1/homework/10/stack-pour
+# Install script for directory: D:/file/Code/cpl/cpl-1/homework/10/stack-pour
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
